@@ -13,6 +13,10 @@ In an attempt to learn about building GUI applications in Java, I have decided t
 Some features I would like to implement are:
 
 +Better designed UI
+
 +Storage and password organizational capability
+
 +User security and multiple user and password storing
+
 +Different UI settings
+
