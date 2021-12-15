@@ -3,8 +3,9 @@ Generates random passwords based on a length and other parameters.
 
 
 
-
-https://user-images.githubusercontent.com/74251098/145956780-2d287232-aa43-4439-984f-95f18ba0cc0a.mp4
+<video width = "480" height = "480" controls>
+<source src = "https://user-images.githubusercontent.com/74251098/145956780-2d287232-aa43-4439-984f-95f18ba0cc0a.mp4" type = "video/mp4">
+</video>
 
 <h1><b>Usage:</b></h1>
 Click on the .jar file - passwordgenerator.jar and download it.
