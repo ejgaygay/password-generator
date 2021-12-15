@@ -6,7 +6,7 @@ Generates random passwords based on a length and other parameters.
 
 https://user-images.githubusercontent.com/74251098/145956780-2d287232-aa43-4439-984f-95f18ba0cc0a.mp4
 
-Usage:
+<h1><b>Usage:</b></h1>
 Click on the .jar file - passwordgenerator.jar and download it.
 Execute the passwordgenerator.jar via the command line or by double clicking the file.
 Utilize the application and create random passwords of a certain length given a check of parameters.
