@@ -11,9 +11,10 @@ Click on the .jar file - passwordgenerator.jar and download it.
 Execute the passwordgenerator.jar via the command line or by double clicking the file.
 Utilize the application and create random passwords of a certain length given a check of parameters.
 
-Motivation:
+<h1><b>Motivation:</b></h1>
 In an attempt to learn about building GUI applications in Java, I have decided to develop this small little app that offers the ability of generating a random password with some characters and copying it to the clipboard for easy pasting. Made with Java, Java AWT, and Java Swing.
 
+<h1><b>Future updates:</b></h1>
 Some features I would like to implement are:
 
 +Better designed UI
