@@ -14,8 +14,17 @@ import java.awt.datatransfer.StringSelection;
 /**
  * A password generator that generates a random password and can copy to the clipboard.
  */
-class PassWordGenerator {
+public class PasswordGenerator {
 
+    /**
+     * Generates a password given a certain set of parameters.
+     * @param lowercase Determines whether the password may include lowercase letters or not.
+     * @param uppercase Determines whether the password may include uppercase letters or not.
+     * @param numbers Determines whether the password may include numbers or not.
+     * @param symbols Determines whether the password may include symbols or not.
+     * @param length The length of the password.
+     * @return A password.
+     */
     public static String generatePassword(boolean lowercase, boolean uppercase, boolean numbers, boolean symbols, int length){
         //33-47 symbols
         //48-57 numbers
@@ -24,7 +33,7 @@ class PassWordGenerator {
         StringBuilder password = new StringBuilder();
         //procedure
         //randomly choose between lower, upper, number, or symbol
-        //bug - find way to check lower and numbers or maybe lower symbols, etc.
+
         ASCIIValues [] choices = new ASCIIValues[4];
         int nums = 0;
         boolean check = false;
@@ -72,6 +81,7 @@ class PassWordGenerator {
         JFrame mainFrame = new JFrame("Password Generator 5000");
         mainFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         //mainFrame.setSize(new Dimension(350, 350));
+        //seems to just stack from left to right
         mainFrame.setLayout(new FlowLayout());
 
         //password options
@@ -106,7 +116,7 @@ class PassWordGenerator {
         Button copyButton = new Button("Copy");
         copyButton.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                PassWordGenerator.writeToClipboard(passwordField.getText());
+                PasswordGenerator.writeToClipboard(passwordField.getText());
             } 
         });
 
